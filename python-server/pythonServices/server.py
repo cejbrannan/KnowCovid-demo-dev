@@ -11,7 +11,7 @@ import json
 from collections import OrderedDict
 from gensim.models.ldamodel import LdaModel
 import pickle
-from sklearn.metrics.pairwise import cosine_similarity
+from scikit-learn.metrics.pairwise import cosine_similarity
 
 # Global values
 LDA_MODEL_PATH = 'lda.model'
